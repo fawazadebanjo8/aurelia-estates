@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aurelia Estates | Luxury Real Estate</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                AURELIA
+                <span>ESTATES</span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#about">About</a>
+                <a href="#collections">Collections</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
+            <button class="theme-toggle" id="themeToggle">
+                ☾
+            </button>
+
+            <a href="#contact" class="nav-button">
+                Enquire
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- ================= MOBILE MENU ================= -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#about">About</a>
+        <a href="#collections">Collections</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <p class="eyebrow">
+                    PRIVATE REAL ESTATE
+                </p>
+
+                <h1>
+                    Where exceptional<br>
+                    <em>living begins.</em>
+                </h1>
+
+                <p class="hero-text">
+                    Discover exceptional residences, refined architecture,
+                    and extraordinary spaces curated for those who expect more.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#properties" class="primary-button">
+                        Explore Properties
+                    </a>
+
+                    <a href="#about" class="secondary-button">
+                        Discover Aurelia
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <div>
+                    <span>01</span>
+                    <p>Featured Residence</p>
+                </div>
+
+                <div>
+                    <span>LAGOS · DUBAI · LONDON</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRO ================= -->
+
+        <section class="intro" id="about">
+
+            <div class="container intro-grid">
+
+                <div class="section-label">
+                    <span>01</span>
+                    <p>ABOUT AURELIA</p>
+                </div>
+
+                <div class="intro-content">
+
+                    <h2>
+                        More than a property.
+                        <em>A way of living.</em>
+                    </h2>
+
+                    <p>
+                        Aurelia Estates represents a new standard in luxury
+                        real estate. We connect discerning clients with
+                        exceptional residences in some of the world's most
+                        desirable destinations.
+                    </p>
+
+                    <p>
+                        From contemporary architectural masterpieces to
+                        timeless estates, every property in our collection
+                        is selected for its character, location, and
+                        extraordinary potential.
+                    </p>
+
+                    <a href="#collections" class="text-link">
+                        Explore our story →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROPERTIES ================= -->
+
+        <section class="properties" id="properties">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <!-- PROPERTY SEARCH -->
+
+                        <div class="property-search">
+
+                            <div class="search-field">
+
+                                <label for="locationFilter">
+                                    Location
+                                </label>
+
+                                <select id="locationFilter">
+
+                                    <option value="all">
+                                        All Locations
+                                    </option>
+
+                                    <option value="lagos">
+                                        Lagos
+                                    </option>
+
+                                    <option value="dubai">
+                                        Dubai
+                                    </option>
+
+                                    <option value="london">
+                                        London
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="search-field">
+
+                                <label for="propertySearch">
+                                    Search Property
+                                </label>
+
+                                <input type="text" id="propertySearch" placeholder="e.g. Meridian">
+
+                            </div>
+
+
+                            <button class="search-button" id="searchButton">
+                                Search Properties →
+                            </button>
+
+                        </div>
+                        <p class="eyebrow dark">
+                            THE COLLECTION
+                        </p>
+
+                        <h2>
+                            Featured <em>Residences</em>
+                        </h2>
+                    </div>
+
+                    <a href="#contact" class="view-all">
+                        View all properties →
+                    </a>
+
+                </div>
+
+
+                <div class="property-grid">
+
+                    <!-- PROPERTY 1 -->
+
+                    <article class="property-card">
+
+                        <div class="property-image image-one">
+
+                            <span class="property-tag">
+                                FOR SALE
+                            </span>
+
+                            <button class="favorite-button">
+                                ♡
+                            </button>
+
+                        </div>
+
+                        <div class="property-info">
+
+                            <p class="property-location">
+                                BANANA ISLAND · LAGOS
+                            </p>
+
+                            <h3>
+                                The Meridian Residence
+                            </h3>
+
+                            <div class="property-details">
+
+                                <span>5 Beds</span>
+                                <span>6 Baths</span>
+                                <span>850 m²</span>
+
+                            </div>
+
+                            <div class="property-bottom">
+
+                                <strong>
+                                    ₦1.85B
+                                </strong>
+
+                                <a href="#contact">
+                                    View Property →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROPERTY 2 -->
+
+                    <article class="property-card">
+
+                        <div class="property-image image-two">
+
+                            <span class="property-tag">
+                                FEATURED
+                            </span>
+
+                            <button class="favorite-button">
+                                ♡
+                            </button>
+
+                        </div>
+
+                        <div class="property-info">
+
+                            <p class="property-location">
+                                PALM JUMEIRAH · DUBAI
+                            </p>
+
+                            <h3>
+                                Azure Palm Villa
+                            </h3>
+
+                            <div class="property-details">
+
+                                <span>6 Beds</span>
+                                <span>8 Baths</span>
+                                <span>1,120 m²</span>
+
+                            </div>
+
+                            <div class="property-bottom">
+
+                                <strong>
+                                    $8.4M
+                                </strong>
+
+                                <a href="#contact">
+                                    View Property →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROPERTY 3 -->
+
+                    <article class="property-card">
+
+                        <div class="property-image image-three">
+
+                            <span class="property-tag">
+                                PRIVATE SALE
+                            </span>
+
+                            <button class="favorite-button">
+                                ♡
+                            </button>
+
+                        </div>
+
+                        <div class="property-info">
+
+                            <p class="property-location">
+                                MAYFAIR · LONDON
+                            </p>
+
+                            <h3>
+                                The Mayfair House
+                            </h3>
+
+                            <div class="property-details">
+
+                                <span>4 Beds</span>
+                                <span>5 Baths</span>
+                                <span>620 m²</span>
+
+                            </div>
+
+                            <div class="property-bottom">
+
+                                <strong>
+                                    £7.2M
+                                </strong>
+
+                                <a href="#contact">
+                                    View Property →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COLLECTIONS ================= -->
+
+        <section class="collections" id="collections">
+
+            <div class="container">
+
+                <div class="section-heading light">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            DISCOVER MORE
+                        </p>
+
+                        <h2>
+                            Curated <em>Collections</em>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="collection-grid">
+
+                    <div class="collection-card collection-one">
+
+                        <div class="collection-overlay"></div>
+
+                        <div class="collection-content">
+
+                            <span>01</span>
+
+                            <h3>
+                                Waterfront
+                            </h3>
+
+                            <p>
+                                Residences defined by extraordinary views.
+                            </p>
+
+                            <a href="#contact">
+                                Explore collection →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="collection-card collection-two">
+
+                        <div class="collection-overlay"></div>
+
+                        <div class="collection-content">
+
+                            <span>02</span>
+
+                            <h3>
+                                Modern Icons
+                            </h3>
+
+                            <p>
+                                Architecture designed to inspire.
+                            </p>
+
+                            <a href="#contact">
+                                Explore collection →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="collection-card collection-three">
+
+                        <div class="collection-overlay"></div>
+
+                        <div class="collection-content">
+
+                            <span>03</span>
+
+                            <h3>
+                                Private Estates
+                            </h3>
+
+                            <p>
+                                Timeless homes for exceptional living.
+                            </p>
+
+                            <a href="#contact">
+                                Explore collection →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY AURELIA ================= -->
+
+        <section class="why-us">
+
+            <div class="container why-grid">
+
+                <div class="why-image"></div>
+
+                <div class="why-content">
+
+                    <p class="eyebrow dark">
+                        THE AURELIA DIFFERENCE
+                    </p>
+
+                    <h2>
+                        A more personal approach to
+                        <em>exceptional property.</em>
+                    </h2>
+
+                    <p>
+                        Buying or selling a luxury property should feel
+                        effortless. Our advisors combine local expertise,
+                        global connections, and a highly personal approach
+                        to every relationship.
+                    </p>
+                    <div class="stats">
+
+                        <div>
+                            <strong class="counter" data-target="12">0+</strong>
+                            <span>Years of experience</span>
+                        </div>
+
+                        <div>
+                            <strong class="counter" data-target="28">0</strong>
+                            <span>Global destinations</span>
+                        </div>
+
+                        <div>
+                            <strong class="counter" data-target="40">₦0B+</strong>
+                            <span>Property value represented</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>op
+
+
+        <!-- ================= TESTIMONIAL ================= -->
+
+        <section class="testimonial">
+
+            <div class="container testimonial-container">
+
+                <p class="eyebrow">
+                    CLIENT STORIES
+                </p>
+
+                <blockquote>
+                    “Aurelia understood exactly what we were looking for
+                    and found a residence that exceeded every expectation.”
+                </blockquote>
+
+                <p class="client-name">
+                    — ALEXANDER & SOPHIA
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+
+                    <p class="eyebrow dark">
+                        PRIVATE ENQUIRY
+                    </p>
+
+                    <h2>
+                        Your next chapter
+                        <em>starts here.</em>
+                    </h2>
+
+                    <p>
+                        Tell us what you're looking for and one of our
+                        private property advisors will be in touch.
+                    </p>
+
+                    <div class="contact-details">
+
+                        <div>
+                            <span>EMAIL</span>
+                            <p>hello@aureliaestates.com</p>
+                        </div>
+
+                        <div>
+                            <span>PHONE</span>
+                            <p>+234 800 000 0000</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input type="text" id="name" placeholder="Your name" required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input type="email" id="email" placeholder="you@example.com" required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="interest">
+                            I'm interested in
+                        </label>
+
+                        <select id="interest">
+
+                            <option value="">
+                                Select an option
+                            </option>
+
+                            <option>
+                                Buying a property
+                            </option>
+
+                            <option>
+                                Selling a property
+                            </option>
+
+                            <option>
+                                Property investment
+                            </option>
+
+                            <option>
+                                Private consultation
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea id="message" rows="5" placeholder="Tell us what you're looking for..."></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="submit-button">
+                        Send Private Enquiry →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-top">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    AURELIA
+                    <span>ESTATES</span>
+                </a>
+
+                <p>
+                    Exceptional property.<br>
+                    Extraordinary living.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Explore</h4>
+
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#collections">Collections</a>
+                <a href="#about">About</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Connect</h4>
+
+                <a href="#contact">Contact</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">WhatsApp</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Locations</h4>
+
+                <p>Lagos</p>
+                <p>Dubai</p>
+                <p>London</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 Aurelia Estates. All rights reserved.
+            </p>
+
+            <p>
+                Private Real Estate Advisory
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= PROPERTY MODAL ================= -->
+
+    <div class="property-modal" id="propertyModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="modalClose">
+                ✕
+            </button>
+
+            <div class="modal-gallery">
+
+                <div class="modal-image" id="modalImage"></div>
+
+                <div class="gallery-dots">
+                    <button class="gallery-dot active" data-image="0"></button>
+                    <button class="gallery-dot" data-image="1"></button>
+                    <button class="gallery-dot" data-image="2"></button>
+                </div>
+
+            </div>
+
+            <div class="modal-info">
+
+                <p class="property-location" id="modalLocation">
+                    BANANA ISLAND · LAGOS
+                </p>
+
+                <h2 id="modalTitle">
+                    The Meridian Residence
+                </h2>
+
+                <p class="modal-description" id="modalDescription">
+                    A sophisticated private residence designed for
+                    exceptional modern living, featuring expansive
+                    interiors, refined finishes, and generous outdoor spaces.
+                </p>
+
+                <div class="modal-details">
+
+                    <div>
+                        <strong id="modalBeds">5</strong>
+                        <span>Bedrooms</span>
+                    </div>
+
+                    <div>
+                        <strong id="modalBaths">6</strong>
+                        <span>Bathrooms</span>
+                    </div>
+
+                    <div>
+                        <strong id="modalSize">850 m²</strong>
+                        <span>Living Space</span>
+                    </div>
+
+                </div>
+
+                <div class="modal-bottom">
+
+                    <strong id="modalPrice">
+                        ₦1.85B
+                    </strong>
+
+                    <a href="#contact" id="modalEnquire">
+                        Request Viewing →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
